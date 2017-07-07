@@ -1,0 +1,215 @@
+{
+  "sessions": [
+    {
+      "uid" : "1",
+      "timestamp": 1234567,
+      "language": "",
+      "device-spec": {
+        "device-model": "",
+        "serial number": "",
+        "android-version": "",
+        "kernel-version": "",
+        "build-number": ""
+      },
+      "display-size": {
+        "width": 12.3,
+        "height": 123.34
+      },
+      "measures": [
+        {
+          "uid": 1,
+          "timestamp": 1254634577,
+          "connectivity": {
+            "wifi": "on",
+            "nfc": "on",
+            "bluetooth": "on",
+            "mobile-data": "on",
+            "gps": "on"
+          },
+          "interaction": {
+            "gesture": "",
+            "coordinates": [
+              {
+                "x": 123,
+                "y": 123
+              }
+            ]
+          },
+          "application": {
+            "view": "",
+            "function": "",
+            "class": "",
+            "lifecycle": ""
+          },
+          "context": {
+            "location": {
+              "highlevel": "home",
+              "gps": {
+                "lat": -93.989,
+                "long": 40.741,
+                "altitute": 12
+              }
+            },
+            "display": {
+              "orientation": "landscape"
+            },
+            "battery": {
+              "status": 54
+            }
+          }
+        },
+
+        {
+          "uid": 2,
+          "timestamp": 1254634577,
+          "connectivity": {
+            "wifi": "on",
+            "nfc": "on",
+            "bluetooth": "on",
+            "mobile-data": "on",
+            "gps": "on"
+          },
+          "interaction": {
+            "gesture": "",
+            "coordinates": [
+              {
+                "x": 123,
+                "y": 123
+              }
+            ]
+          },
+          "application": {
+            "view": "",
+            "function": "",
+            "class": "",
+            "lifecycle": ""
+          },
+          "context": {
+            "location": {
+              "highlevel": "home",
+              "gps": {
+                "lat": -93.989,
+                "long": 40.741,
+                "altitute": 12
+              }
+            },
+            "display": {
+              "orientation": "landscape"
+            },
+            "battery": {
+              "status": 54
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "uid" : "2",
+      "timestamp": 1234567,
+      "language": "",
+      "device-spec": {
+        "device-model": "",
+        "serial number": "",
+        "android-version": "",
+        "kernel-version": "",
+        "build-number": ""
+      },
+      "display-size": {
+        "width": 12.3,
+        "height": 123.34
+      },
+      "measures": [
+        {
+          "uid": 1,
+          "timestamp": 1254634577,
+          "connectivity": {
+            "wifi": "on",
+            "nfc": "on",
+            "bluetooth": "on",
+            "mobile-data": "on",
+            "gps": "on"
+          },
+          "interaction": {
+            "gesture": "",
+            "coordinates": [
+              {
+                "x": 123,
+                "y": 123
+              }
+            ]
+          },
+          "application": {
+            "view": "",
+            "function": "",
+            "class": "",
+            "lifecycle": ""
+          },
+          "context": {
+            "location": {
+              "highlevel": "home",
+              "gps": {
+                "lat": -93.989,
+                "long": 40.741,
+                "altitute": 12
+              }
+            },
+            "display": {
+              "orientation": "landscape"
+            },
+            "battery": {
+              "status": 54
+            }
+          }
+        },
+
+        {
+          "uid": 2,
+          "timestamp": 1254634577,
+          "connectivity": {
+            "wifi": "on",
+            "nfc": "on",
+            "bluetooth": "on",
+            "mobile-data": "on",
+            "gps": "on"
+          },
+          "interaction": {
+            "gesture": "",
+            "coordinates": [
+              {
+                "x": 123,
+                "y": 123
+              }
+            ]
+          },
+          "application": {
+            "view": "",
+            "function": "",
+            "class": "",
+            "lifecycle": ""
+          },
+          "context": {
+            "location": {
+              "highlevel": "home",
+              "gps": {
+                "lat": -93.989,
+                "long": 40.741,
+                "altitute": 12
+              }
+            },
+            "display": {
+              "orientation": "landscape"
+            },
+            "battery": {
+              "status": 54
+            }
+          }
+        }
+      ]
+    }
+
+
+
+  ]
+}
+

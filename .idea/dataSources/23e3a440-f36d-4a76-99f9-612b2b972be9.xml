@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="timely_data@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.2">
+    <root id="1"/>
+    <database id="2" parent="1" name="timely_data">
+      <ObjectId>16441</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2017-07-06.18:52:11.290</IntrospectionTimestamp>
+      <IntrospectionStateNumber>611</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="4" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="5" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="information_schema">
+      <ObjectId>12113</ObjectId>
+    </schema>
+    <sequence id="9" parent="3" name="hibernate_sequence">
+      <ObjectId>16447</ObjectId>
+      <StateNumber>578</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="10" parent="3" name="mesure">
+      <ObjectId>16449</ObjectId>
+      <StateNumber>610</StateNumber>
+    </table>
+    <table id="11" parent="3" name="session">
+      <ObjectId>16442</ObjectId>
+      <StateNumber>611</StateNumber>
+    </table>
+    <column id="12" parent="10" name="measure_id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>584</StateNumber>
+    </column>
+    <column id="13" parent="10" name="measure_data">
+      <Position>2</Position>
+      <DataType>json|0</DataType>
+      <StateNumber>610</StateNumber>
+    </column>
+    <column id="14" parent="10" name="session_id">
+      <Position>3</Position>
+      <DataType>bigint|0</DataType>
+      <StateNumber>584</StateNumber>
+    </column>
+    <index id="15" parent="10" name="mesure_pkey">
+      <ObjectId>16452</ObjectId>
+      <ColNames>measure_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="16" parent="10" name="mesure_pkey">
+      <ObjectId>16453</ObjectId>
+      <ColNames>measure_id</ColNames>
+      <UnderlyingIndexName>mesure_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="17" parent="10" name="fk2t3sa6aylubqbwut3ia131n0r">
+      <ObjectId>16454</ObjectId>
+      <ColNames>session_id</ColNames>
+      <RefTableName>session</RefTableName>
+      <RefKeyName>session_pkey</RefKeyName>
+      <RefColNames>session_id</RefColNames>
+    </foreign-key>
+    <column id="18" parent="11" name="session_id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>577</StateNumber>
+    </column>
+    <column id="19" parent="11" name="session_data">
+      <Position>2</Position>
+      <DataType>json|0</DataType>
+      <StateNumber>611</StateNumber>
+    </column>
+    <column id="20" parent="11" name="upload_date">
+      <Position>3</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>577</StateNumber>
+    </column>
+    <index id="21" parent="11" name="session_pkey">
+      <ObjectId>16445</ObjectId>
+      <ColNames>session_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="22" parent="11" name="session_pkey">
+      <ObjectId>16446</ObjectId>
+      <ColNames>session_id</ColNames>
+      <UnderlyingIndexName>session_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

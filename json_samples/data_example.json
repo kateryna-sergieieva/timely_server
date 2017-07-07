@@ -1,0 +1,69 @@
+[
+  "session": {
+    "uid": 123,
+    "timestamp": 1234567, // unix time stamp
+    "language":"",
+
+    "device-spec":{
+      "device-model":"",
+      "serial number":"",
+      "android-version": "",
+      "kernel-version":"",
+      "build-number":""
+    },
+
+    "display-size":{
+      "width":12.3,   // [px]
+      "height":123.34 // [px]
+    },
+
+    "measures":[1,2,3,4,5]
+  },
+
+  "measure":{
+    "uid": 1,
+    "timestamp":1254634577, // unix time stamp
+    "connectivity":{
+      "wifi":"on",
+      "nfc":"on",
+      "bluetooth":"on",
+      "mobile-data":"on",
+      "gps":"on"
+    },
+    "interaction":{
+      "gesture":"",
+      "coordinates":[{
+        "x":123, // [px]
+        "y":123  // [px]
+      }]
+
+    },
+    "application":{
+      "view":"",
+      "function":"",
+      "class":"",
+      "lifecycle":""
+
+    },
+    "context":{
+      "location":{
+        "highlevel":"home",
+        "gps":{
+          "lat":-93.989, // [°]
+          "long":40.741, // [°]
+          "altitute":12  // [m]
+        },
+
+      },
+      "display":{
+        "orientation":"landscape"
+
+      },
+      "battery":{
+        "status":54 // [%]
+
+      }
+    }
+  }
+]
+
